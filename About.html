@@ -3,21 +3,72 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>About Us - Ali Sher's Design Studio</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>This is About Page</h1>
-    <nav>
+
+    <!-- Header Section -->
+    <header class="header-section">
+        <h1>About Ali Sher's Design Studio</h1>
+        <p>Learn more about our history, mission, and the space where creativity comes to life.</p>
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav class="nav-bar">
         <a href="./Home.html">Home</a>
         <a href="./About.html">About</a>
         <a href="./Services.html">Services</a>
     </nav>
-     <hr>
-    <footer class="footer"></footer>
+
+    <!-- Main Content Section -->
+    <section class="about-content">
+        <h2>Our Story</h2>
+        <p>Ali Sher’s Design Studio was founded with one simple goal in mind: to bridge the gap between graphic design and modern web development. Over the years, we have expanded from a small graphic design studio into a full-service digital agency, offering everything from web design to logo creation, domain setup, and beyond. Our passion is bringing ideas to life in both the digital and physical realms, while maintaining a warm and friendly atmosphere for all our clients.</p>
+
+        <h2>Our Location</h2>
+        <p>We are proud to operate from our office in the heart of the city, easily accessible by public transport and surrounded by great local amenities. Feel free to stop by for a cup of coffee in our relaxing meeting room, where we love discussing new projects and ideas.</p>
+
+        <!-- Location Image -->
+        <div class="location-image">
+            <img src="assets/map_location.png" alt="Ali Sher's Design Studio Location">
+            <figcaption>Visit us at: 123 Business Street, City, Country</figcaption>
+        </div>
+
+        <h2>How to Find Us</h2>
+        <p>Our office is conveniently located near the central business district, with ample parking available. If you’re using public transport, the nearest bus stop is just a 5-minute walk away, and the metro station is within 10 minutes of walking distance.</p>
+
+        <ul>
+            <li><strong>Address:</strong> 123 Business Street, City, Country</li>
+            <li><strong>Nearest Landmarks:</strong> Close to Central Park and City Mall</li>
+            <li><strong>Parking:</strong> Free parking available for all clients</li>
+            <li><strong>Public Transport:</strong> Bus Stop: 5 mins walk, Metro Station: 10 mins walk</li>
+        </ul>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section class="contact-info">
+        <h2>Get in Touch</h2>
+        <form action="submit.html" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            
+            <button class="btn" type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
         <div class="business-info">
-            <p><strong>Web Pk</strong></p>
+            <p><strong>Ali Sher’s Design Studio</strong></p>
             <p>123 Business Street, City, Country</p>
-            <p>Email: info@business.com | Phone: +123 456 7890</p>
+            <p>Email: info@alisherdesign.com | Phone: +123 456 7890</p>
         </div>
         <div class="social-links">
             <a href="https://facebook.com" target="_blank">Facebook</a> |
@@ -25,7 +76,8 @@
             <a href="https://instagram.com" target="_blank">Instagram</a> |
             <a href="https://linkedin.com" target="_blank">LinkedIn</a>
         </div>
-        <p>&copy; 2024 Business Name. All rights reserved.</p>
+        <p>&copy; 2024 Ali Sher’s Design Studio. All rights reserved.</p>
     </footer>
+
 </body>
 </html>
